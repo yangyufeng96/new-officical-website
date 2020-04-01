@@ -1,0 +1,234 @@
+.home-footer {
+  width: 100%;
+  height: 852px;
+
+}
+.btn-taste {
+  width: 108px;
+  height: 30px;
+  /* border: 0.01rem solid rgba(24,144,255,1); */
+  border-radius: 16px;
+  background: #1890FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer-up {
+  width: 100%;
+  height: 352px;
+  background: url(../../assets/img/f-01.png) no-repeat;
+  background-size: cover;
+}
+
+.footer-p {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  font-size: 40px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 70px;
+  align-items: flex-end;
+}
+.footer-p i{
+  font-size: 40px;
+  margin-left: 33px;
+}
+
+.footer-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.footer-down {
+  width: 100%;
+  height: 500px;
+  background: url(../../assets/img/f-02.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.down-box {
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.down-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+.erwei-box{
+  width: 108px;
+  height: 108px;
+}
+.erwei-box img{
+  width: 100%;
+  height: 100%;
+}
+.erwei-text{
+  width: 108px;
+  text-align: center;
+}
+.site-box{
+  width: 168px;
+  
+}
+.down-box ul li {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 40px;
+}
+
+.down-box ul li:nth-of-type(1) {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.down-tail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tail-list {
+  width: 923px;
+  height: 94px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tail-list p:nth-of-type(1) {
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  /* line-height: .7rem; */
+}
+
+.tail-list p:nth-of-type(2) {
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+}
+
+.tail-list p {
+  margin: 0;
+}
+.down-box ul:nth-of-type(1) li:hover,.down-box ul:nth-of-type(2) li:hover,.down-box ul:nth-of-type(3) li:hover,.down-box ul:nth-of-type(4) li:hover,.down-box ul:nth-of-type(5) li:hover{
+  color: #1890FF;
+  cursor: pointer;
+}
+.down-box ul li:nth-of-type(1):hover{
+  color: #fff;
+  cursor: default;
+}
+.app-footer {
+  width: 100%;
+  height: 888px;
+  display: none;
+  background: rgba(2, 14, 24, 1);
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  .down-box{
+    width: calc(100% - 30px);
+  }
+}
+@media (max-width: 992px){
+  .home-footer {
+    display: none;
+  }
+  .app-footer {
+    display: block;
+  }
+  .app-box {
+    width: 100%;
+    height: 762px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .app-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 381px;
+  }
+  
+  .app-box p {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.65);
+    text-indent: 24px;
+  }
+  
+  .app-box p:nth-of-type(1) {
+    font-size: 32px;
+    color: #fff;
+  }
+
+.app-bei {
+  width: 100%;
+  height: 125px;
+  font-size: 22px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-bei p {
+  text-indent: 32px;
+}
+}
+@media(max-width: 768px){
+  .app-box div{
+    height: 190px;
+  }
+  .app-footer{
+    height: 440px;
+  }
+  .app-box{
+    height: 381px;
+  }
+  .app-box p{
+    font-size: 14px;
+    text-indent: 12px;
+  }
+  .app-box p:nth-of-type(1){
+    font-size: 16px;
+  }
+  .app-bei{
+    height: 62px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

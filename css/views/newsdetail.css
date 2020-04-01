@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.detail-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.detail-content {
+  width: 100%;
+  /* height: 20.35rem; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.information-box {
+  width: 1200px;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.crumbs-box {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 40px;
+}
+
+.crumbs-box span {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.detail-article {
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-between;
+}
+
+.article-left {
+  width: 885px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.article-right {
+  width: 300px;
+  height: 584px;
+  background: #fff;
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.article-left p:nth-of-type(1) {
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30px;
+  opacity: 0.85;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.article-left p:nth-of-type(2) {
+  height: 16px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.65;
+  text-align: center;
+  margin: 0;
+  line-height: 16px;
+  margin-top: 17px;
+}
+
+.article-text {
+  width: 834px;
+  height: 1674px;
+  margin: 32px 25px 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-text {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30px;
+  opacity: 0.85;
+  text-indent: 32px;
+}
+
+.section-img {
+  width: 834px;
+  height: 470px;
+}
+
+.section-img1 {
+  background: url(../../assets/img/image_xq1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.section-img2 {
+  background: url(../../assets/img/image_xq2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.article-btn {
+  width: 834px;
+  height: 138px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.btn-page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-same {
+  width: 110px;
+  height: 32px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-page {
+  border: 1px solid rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.3;
+}
+
+.right-page {
+  color: rgba(24, 144, 255, 1);
+  border: 1px solid rgba(24, 144, 255, 1);
+}
+
+.pagination-text {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30px;
+  opacity: 0.85;
+}
+
+.left-pagination {
+  font-weight: bold;
+}
+
+.right-pagination {
+  font-weight: 400;
+}
+
+.consult-content {
+  width: calc(100% - 40px);
+  height: 456px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serial-box {
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 1);
+  opacity: 0.3;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.consult-text {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.serial-text {
+  width: 230px;
+}
+
+.serial-text p:nth-of-type(1) {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.65;
+  margin: 0;
+}
+
+.serial-text p:nth-of-type(2) {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 28px;
+  opacity: 0.85;
+  margin: 0;
+}
+.serial-text p:nth-of-type(2):hover{
+  color: rgba(24, 144, 255, 1);
+ }
+ .serial-text p:nth-of-type(2):hover {
+   background: #f0f;
+ }
+.list-line {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-line p {
+  width: calc(100% - 20px);
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+.list-crumbs {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.list-crumbs p {
+  margin: 0;
+  width: 4px;
+  height: 18px;
+  background: #1890FF;
+}
+
+.list-crumbs span {
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.85);
+  margin-left: 15px;
+  /* line-height: 0.; */
+}
+.page-box{
+  width: 100%;
+  height: 44px;
+}
+.page{
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

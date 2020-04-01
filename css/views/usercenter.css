@@ -1,0 +1,292 @@
+.user-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.user-vital{
+  width: 1200px;
+  margin: 0 auto;
+}
+.user-top {
+  width: 100%;
+  height: 602px;
+  margin-top: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../assets/img/user/banner_yh1.png) no-repeat;
+  background-size: cover;
+}
+
+.user-top div {
+  overflow: hidden;
+}
+
+.user-top p:nth-child(1) {
+  height: 42px;
+  font-size: 42px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1;
+  text-align: center;
+}
+
+.user-top p:nth-child(2) {
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  max-width: 620px;
+  text-align: center;
+  margin-top: 29px;
+}
+
+.user-video {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-text {
+  width: 100%;
+  height: 217px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-text div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.video-text p:nth-child(1) {
+  font-size: 30px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.85;
+}
+
+.video-text p:nth-child(2) {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.65;
+  margin: 10px 0;
+}
+
+.video-text p:nth-child(3) {
+  width: 64px;
+  height: 4px;
+  background: rgba(24, 144, 255, 1);
+}
+
+.video-top {
+  height: 230px;
+}
+
+.video-img {
+  height: 230px;
+  position: relative;
+}
+.video-img img{
+  padding: 0 15px;
+  width: 100%;
+  height: 100%;
+}
+.video-img2 {
+  height: 230px;
+  position: relative;
+}
+.video-img2 img{
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+.video-book {
+  width: 100%;
+}
+
+.book-left {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.book-text {
+  width: calc(100% - 15px);
+  /* height: 6.02rem; */
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.book-content p:nth-child(1) {
+  text-align: center;
+  font-size: 28px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.85;
+  line-height: 80px;
+}
+
+.book-content span {
+  display: inline-block;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.85;
+  margin: 10px 25px 50px 25px;
+  text-indent: 32px;
+}
+
+.book-content p {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 50px;
+  opacity: 0.85;
+  margin-left: 25px;
+}
+
+.tree-top {
+  display: flex;
+  align-items: center;
+  height: 49px;
+}
+
+.tree-top p:nth-child(1) {
+  width: 4px;
+  height: 18px;
+  background: rgba(24, 144, 255, 1);
+}
+
+.tree-top p:nth-child(2) {
+  height: 100%;
+  width: calc(100% - 4px);
+  text-indent: 10px;
+  line-height: 49px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tree-list ul {
+  overflow: hidden;
+}
+
+.tree-list ul li {
+  line-height: 40px;
+  cursor: pointer;
+}
+/* .tree-list ul li:hover{
+  color: rgba(24, 144, 255, 1);
+  cursor: pointer;
+} */
+.tree-list ul li:nth-child(1) {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 20px;
+}
+
+.list-btn span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.list-btn .btn-boult {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../../assets/img/user/icon_lb2.png) 0 0 no-repeat / 100% 100%;
+}
+
+.list-child {
+  margin-left: 60px;
+  display: none;
+}
+
+.list-btn:hover span {
+  color: rgba(24, 144, 255, 1);
+  cursor: pointer;
+}
+
+.list-btn:hover .btn-boult {
+  background: url(../../assets/img/user/icon_lb1.png) 0 0 no-repeat / 100% 100%;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  transition: all .3s linear;
+}
+
+.video-box {
+  overflow: hidden;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.video-dwon{
+  position: relative;
+}
+.video-top{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.video-top .video-img:hover{
+  margin-top: 10px;
+}
+.video-dwon .video-img2:hover{
+  margin-top: 10px;
+}
+.video-name {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 30px);
+  height: 40px;
+  background: url(../../assets/img/user/mo-01.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+
+.video-name p:nth-child(1) {
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+.video-name p:nth-child(2) {
+  font-size: 14px;
+  font-family:MicrosoftYaHei;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+}
+.video-icon{
+  width: 41px;
+  height: 45px;
+  background: url(../../assets/img/user/icon_bf.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}

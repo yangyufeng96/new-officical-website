@@ -1,0 +1,238 @@
+.letter-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.letter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter-title {
+  width: 100%;
+  height: 2020px;
+}
+
+.dummy-title {
+  width: 100%;
+  height: 600px;
+  background: url(../../assets/img/banner_gsjs.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 59px;
+}
+
+.dummy-title p {
+  margin: 0;
+}
+
+.dummy-title p:nth-of-type(1) {
+  font-size: 48px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1;
+  margin-top: 152px;
+}
+
+.dummy-title p:nth-of-type(2) {
+  font-size: 32px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1;
+  margin-top: 19px;
+}
+
+.dummy-title p:nth-of-type(3) {
+  width: 352px;
+  height: 60px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  border-radius: 30px;
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+}
+
+.dummy-content {
+  width: 1200px;
+  height: 1420px;
+  overflow: hidden;
+}
+
+.company-intro {
+  height: 580px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 21px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-title {
+  width: 100%;
+  margin-top: 56px;
+}
+
+.company-title p {
+  text-align: center;
+}
+
+.int-p {
+  width: 100%;
+  font-size: 30px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 1;
+
+}
+
+.int-pt {
+  width: 100%;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 1;
+  margin: 10px 0 10px 0;
+}
+
+.int-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.int-box span {
+  display: inline-block;
+  width: 64px;
+  height: 4px;
+  background: rgba(24, 144, 255, 1);
+}
+
+.company-text {
+  width: calc(100% - 50px);
+  height: 362px;
+  margin-top: 40px;
+}
+
+.company-box {
+  /* width: 4.3rem; */
+  height: 350px;
+  background: rgba(24, 144, 255, 1);
+  margin-top: 12px;
+  position: relative;
+}
+
+.company-box img {
+  position: absolute;
+  left: 20px;
+  top: -12px;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  height: 350px;
+  text-indent: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-left: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 30px;
+  letter-spacing: 5px;
+}
+
+.text p {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 30px;
+  opacity: 0.85;
+}
+
+.company-information {
+  height: 320px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+.company-information2{
+  margin-bottom: 100px;
+}
+.information-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-text div {
+  margin: 0 80px;
+}
+
+.information-text div p:nth-of-type(1) {
+  font-size: 30px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.85;
+}
+
+.information-text div p:nth-of-type(2) {
+  width: 64px;
+  height: 4px;
+  background: rgba(24, 144, 255, 1);
+  margin: 10px 0 20px 0;
+}
+
+.information-text div p:nth-of-type(3) {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: Regular;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.85;
+  text-indent: 32px;
+}
+
+.information-img {
+  height: 100%;
+}
+
+.information-img img {
+  width: 100%;
+  height: 100%;
+  padding: 29px;
+}
+
+.company-appose {
+  display: flex;
+}

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/fonts/iconfont.css">
+  <link rel="stylesheet" href="./css/components/header.css">
+  <link rel="stylesheet" href="./css/components/footer.css">
+  <link rel="stylesheet" href="./css/components/empty.css">
+  <link rel="stylesheet" href="./css/views/index.css">
+  <link rel="stylesheet" href="./css/indexApp.css">
+  <link rel="stylesheet" href="./css/components/swiper.css">
+</head>
+
+<body>
+  <div class="home-box">
+    <!-- 导航 -->
+    <div class="home-headr">
+      <nav class="navbar">
+        <div class="container container2">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+              <img src="./assets/img/LOGO.png" alt="">
+            </a>
+            <button type="button" class="navbar-toggle collapsed navPadding" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navCenter" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown btnBox dropdownActive dropdownShow"><a href="#">首页</a></li>
+              <li class="dropdown btnBox">
+                <a href="#" class="dropdown-toggle navActive" data-toggle="dropdown" id="navbarDropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false"><text>产品服务</text><span
+                    class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./views/VisualTerrace.html"><text>数据可视化平台</text></a></li>
+                  <li><a href="./views/ProductSerice.html"><text>数据服务</text></a></li>
+                  <li><a href="./views/CustomServe.html"><text>可视化定制服务</text></a></li>
+                  <li><a href="./views/ClientCase.html"><text>知识云系统</text></a></li>
+                </ul>
+              </li>
+              <li class="dropdown btnBox">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false"><text>解决方案</text><span
+                    class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                <ul class="dropdown-menu dropdown-double" style="min-width: 1.44rem;">
+                  <div><a href="#"><text>智慧城市</text></a></div>
+                  <div><a href="#"><text>智慧工厂</text></a></div>
+                  <div><a href="./views/SmartFinance.html"><text>智慧金融</text></a></div>
+                  <div><a href="#"><text>智慧交通</text></a></div>
+                  <div><a href="./views/Solution.html"><text>智慧能源</text></a></div>
+                  <div><a href="#"><text>智慧教育</text></a></div>
+                  <div><a href="#"><text>智慧政务</text></a></div>
+                  <div><a href="#"><text>智慧医疗</text></a></div>
+                </ul>
+              </li>
+              <li class="dropdown btnBox"><a href="./views/ClientCase.html"><text>客户案例</text></a></li>
+              <li class="dropdown btnBox"><a href="./views/ClientCase.html"><text>用户中心</text></a></li>
+              <li class="dropdown btnBox">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false"><text>关于我们</text><span class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./views/CompanyLetter.html"><text>公司介绍</text></a></li>
+                  <li><a href="./views/Aboutus.html"><text>加入我们</text></a></li>
+                  <li><a href="./views/NewsList.html"><text>新闻资讯</text></a></li>
+                </ul>
+              </li>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+          <div class="headr-page">
+            <span>进入sv.data</span>
+          </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+    <div class="content-box">
+      <div class="exhibition-box">
+        <div class="video-box">
+          <video autoplay loop muted style="width: 100%; height: 100%; object-fit: fill">
+            <source src="./assets//video/guanwang.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-text">
+          <p class="exhibition-text">0元体验可视化</p>
+          <div class="exhibition-text2">看看开维创为宝马做的可视化
+            <p class="exhibition-into">
+              <i class="iconfont iconchangyongicon-"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- tab切换 -->
+      <div class="project-box">
+        <div class="project-content">
+          <div class="project-text">国家能源集团软件供应商，全面助力企业实现数据分析展示</div>
+          <div class="control-btn">
+            <p class="control-left"><i class="iconfont iconchangyongicon-1"></i></p>
+            <p class="control-right"><i class="iconfont iconchangyongicon-"></i></p>
+          </div>
+          <div class="car-btn">
+            <div class="car-box active">伊利项目</div>
+            <div class="car-box">宝马项目</div>
+            <div class="car-box">国家电网</div>
+            <div class="car-box">华厚能源</div>
+          </div>
+          <div class="swiper-container" id="case-show">
+            <div class="show-content swiper-wrapper">
+              <div class="show-boxli swiper-slide">
+                <div class="show-text">
+                  <div class="show-img col-lg-7">
+                    <img src="./assets/img/q-01.png" alt="">
+                  </div>
+                  <div class="show-ask col-lg-5">
+                    <p class="show-p">伊利可视化项目</p>
+                    <div class="box-ask">通过数维可视化系统，实现3D可视化场景展示生产线运行状态，并有效的管理工厂运营体系，节省管理成本提高工厂的工作效率，实现伊利生</div>
+                    <div class="car-btn">
+                      <div class="car-box car-color">了解更多&nbsp;></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="show-boxli swiper-slide">
+                <div class="show-text">
+                  <div class="show-img col-lg-7">
+                    <img src="./assets/img/q-01.png" alt="">
+                  </div>
+                  <div class="show-ask col-lg-5">
+                    <p class="show-p">宝马可视化项目</p>
+                    <div class="box-ask">通过数维可视化系统，实现3D可视化场景展示生产线运行状态，并有效的管理工厂运营体系，节省管理成本提高工厂的工作效率，实现伊利生</div>
+                    <div class="car-btn">
+                      <div class="car-box car-color">了解更多</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="show-boxli swiper-slide">
+                <div class="show-text">
+                  <div class="show-img col-lg-7">
+                    <img src="./assets/img/q-01.png" alt="">
+                  </div>
+                  <div class="show-ask col-lg-5">
+                    <p class="show-p">国家电网可视化项目</p>
+                    <div class="box-ask">通过数维可视化系统，实现3D可视化场景展示生产线运行状态，并有效的管理工厂运营体系，节省管理成本提高工厂的工作效率，实现伊利生</div>
+                    <div class="car-btn">
+                      <div class="car-box car-color">了解更多</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="show-boxli swiper-slide">
+                <div class="show-text">
+                  <div class="show-img col-lg-7">
+                    <img src="./assets/img/q-01.png" alt="">
+                  </div>
+                  <div class="show-ask col-lg-5">
+                    <p class="show-p">华厚能源项目</p>
+                    <div class="box-ask">通过数维可视化系统，实现3D可视化场景展示生产线运行状态，并有效的管理工厂运营体系，节省管理成本提高工厂的工作效率，实现伊利生</div>
+                    <div class="car-btn">
+                      <div class="car-box car-color">了解更多</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-btn2">
+            <div class="car-box2 car-box active"></div>
+            <div class="car-box2 car-box"></div>
+            <div class="car-box2 car-box"></div>
+            <div class="car-box2 car-box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="classification-box">
+        <div class="classification-content">
+          <div class="classification-text">
+            0元体验可视化，解决你的数据烦恼
+          </div>
+          <div class="classification-product row">
+            <div class="product-box col-lg-3 col-md-3">
+              <img src="./assets/img/pic01.png" alt="">
+            </div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic02.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic03.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic04.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic05.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic06.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic07.png" alt=""></div>
+            <div class="product-box col-lg-3 col-md-3"><img src="./assets/img/pic08.png" alt=""></div>
+            <div class="masking-box">
+              <div class="masking-icon">
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuichengshi.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧城市</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="./views/Solution.html">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuizhengwu.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧政务</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="./views/Solution.html">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuinengyuan.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧能源</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuijiaoyu.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧教育</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuigongchang.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧工厂</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuiyiliao.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧医疗</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuijiaotong.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧交通</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-box2 col-lg-3 col-md-3">
+                  <a href="#">
+                    <div class="masking-img">
+                      <p><img src="./assets/img/zhihuijinrong.png"></p>
+                    </div>
+                    <div class="masking-text">
+                      <p>智慧金融</p>
+                      <div>推动法院业务向可视化转变，用交通可视化、3D可视化有效提高公共服务效率。</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 移动端 -->
+      <div class="didongduan-lunbo">
+        <div class="classification-text">
+          0元体验可视化，解决你的数据烦恼
+        </div>
+        <div class="lunbo-one">
+          <div class="lunbo-row">
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic01.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuichengshi.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧城市</p>
+                </div>
+              </a>
+            </div>
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic02.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuizhengwu.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧政务</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="lunbo-row lunbo-top">
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic03.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuinengyuan.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧能源</p>
+                </div>
+              </a>
+            </div>
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic04.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuijiaoyu.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧教育</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="lunbo-two lunbo-one">
+          <div class="lunbo-row">
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic05.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuigongchang.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧工厂</p>
+                </div>
+              </a>
+            </div>
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic06.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuiyiliao.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧医疗</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="lunbo-row lunbo-top">
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic07.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuijiaotong.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧交通</p>
+                </div>
+              </a>
+            </div>
+            <div class="lunbo-img">
+              <img class="img-ps" src="./assets/img/pic08.png" alt="">
+              <a href="#">
+                <div class="hover-img">
+                  <p><img src="./assets/img/zhihuijinrong.png"></p>
+                </div>
+                <div class="hover-text">
+                  <p>智慧金融</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="lunbo-dot">
+          <li class="dotLi dotActice"></li>
+          <li class="dotLi"></li>
+        </div>
+      </div>
+      <div class="analysis-box">
+        <div class="analysis-contnet">
+          <p class="analysis-p">比双十一数据大屏更酷炫的效果</p>
+          <div>
+            <div class="analysis-btn">
+              <div class="analysis-cannot"> <img src="./assets/img/X.png" alt=""> 拒绝数据源单一</div>
+              <div class="analysis-cannot"> <img src="./assets/img/X.png" alt=""> 拒绝无3D</div>
+              <div class="analysis-cannot"> <img src="./assets/img/X.png" alt=""> 拒绝复杂交互</div>
+              <div class="analysis-cannot"> <img src="./assets/img/X.png" alt=""> 拒绝无数据分析</div>
+            </div>
+            <div class="compete-box">
+              <div class="com-box">
+                <div class="compete-text1">双十一</div>
+                <div class="compete-text2">VS</div>
+                <div class="compete-text3">开维创</div>
+              </div>
+            </div>
+            <div class="analysis-ul">
+              <ul>
+                <li>多种数据源支持</li>
+                <li>海量图表组件</li>
+                <li>开放式共享服务</li>
+                <li>支持本地部署</li>
+                <li>提供免费数据专家咨询服务</li>
+                <li>行业分析经验丰富</li>
+                <li>2D、3D全都有</li>
+                <li>组件交互简单易懂</li>
+                <li>多终端支持</li>
+              </ul>
+              <ul></ul>
+              <ul>
+                <li>支持多种数据库</li>
+                <li>多种炫酷图表组件</li>
+                <li>企业定制化服务</li>
+                <li>灵活本地部署与发布</li>
+                <li>提供免费数据专家咨询服务</li>
+                <li>行业分析经验丰富</li>
+                <li>2D、3D全都有</li>
+                <li>组件交互简单易懂</li>
+                <li>多终端支持</li>
+              </ul>
+              <div class="btn-know"><a href="#">了解更多&nbsp;></a></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="analysis-yi"></div>
+      </div>
+      <div class="dynamic-box">
+        <div class="dynamic-setting"></div>
+        <div class="dynamic-content">
+          <div class="dynamic-detail">
+            <p class="dynamic-text">数据专家提供免费咨询服务</p>
+            <div class="container card-box">
+              <div class="row card-box">
+                <div class="card-content col-md-4 card-one">
+                  <div class="card-details">
+                    <div class="card-text">
+                      <p class="card-title">数据可视化平台</p>
+                      <p class="card-level">Data Visualization Platform</p>
+                      <div class="card-body">提供多种数据源支持、可本地部署、支持3D可视化、数据源跨平台兼容、直观展示企业数据的数据可视化平台。</div>
+                    </div>
+                    <div class="card-btn">
+                      <div class="btn-know2"><a href="#">了解更多&nbsp;></a></div>
+                      <div class="btn-taste">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content col-md-4 card-two">
+                  <div class="card-details">
+                    <div class="card-text">
+                      <p class="card-title">数据服务</p>
+                      <p class="card-level">Data Service</p>
+                      <div class="card-body">为您提供数据可视、数据挖掘、数据加密、数据建模、数据分析、数据定制的一系列数据可视化服务。</div>
+                    </div>
+                    <div class="card-btn">
+                      <div class="btn-know2"><a href="./views/ProductSerice.html">了解更多&nbsp;></a></div>
+                      <div class="btn-taste">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content col-md-4 card-three">
+                  <div class="card-details">
+                    <div class="card-text">
+                      <p class="card-title">可视化定制服务</p>
+                      <p class="card-level">Visual customization service</p>
+                      <div class="card-body">全面了解客户的大数据可视化需求、产品用途及对产品的特殊要求，为客户提供专业定制化服务打造高质量的大数据可视化解决方案。</div>
+                    </div>
+                    <div class="card-btn">
+                      <div class="btn-know2"><a href="./views/CustomServe.html">了解更多&nbsp;></a></div>
+                      <div class="btn-taste">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 质询服务移动端 -->
+            <div class="card-box card-box2">
+              <div class="card-boss">
+                <div class="card-content2 card-one">
+                  <div class="card-details2">
+                    <div class="card-img">
+                      <img src="./assets/img/card-01.png" alt="">
+                    </div>
+                    <div class="card-text2">
+                      <p class="card-title2">数据可视化平台</p>
+                      <p class="card-level2">Data Visualization Platform</p>
+                      <div class="card-body2">提供多种数据源支持、可本地部署、支持3D可视化、数据源跨平台兼容、直观展示企业数据的数据可视化平台。</div>
+                    </div>
+                    <div class="card-btn2">
+                      <div class="btn-liaojie"><a href="#">了解更多&nbsp;></a></div>
+                      <div class="btn-taste2">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content2 card-two">
+                  <div class="card-details2">
+                    <div class="card-img">
+                      <img src="./assets/img/card-02.png" alt="">
+                    </div>
+                    <div class="card-text2">
+                      <p class="card-title2">数据服务</p>
+                      <p class="card-level2">Data Service</p>
+                      <div class="card-body2">为您提供数据可视、数据挖掘、数据加密、数据建模、数据分析、数据定制的一系列数据可视化服务。</div>
+                    </div>
+                    <div class="card-btn2">
+                      <div class="btn-liaojie"><a href="./views/ProductSerice.html">了解更多&nbsp;></a></div>
+                      <div class="btn-taste2">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content2 card-three">
+                  <div class="card-details2">
+                    <div class="card-img">
+                      <img src="./assets/img/card-03.png" alt="">
+                    </div>
+                    <div class="card-text2">
+                      <p class="card-title2">可视化定制服务</p>
+                      <p class="card-level2">Visual customization service</p>
+                      <div class="card-body2">全面了解客户的大数据可视化需求、产品用途及对产品的特殊要求，为客户提供专业定制化服务打造高质量的大数据可视化解决方案。</div>
+                    </div>
+                    <div class="card-btn2">
+                      <div class="btn-liaojie"><a href="./views/CustomServe.html">了解更多&nbsp;></a></div>
+                      <div class="btn-taste2">立即体验</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-li">
+                <ul>
+                  <li class="dotActice"></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="cut-box">
+              <p class="cut-p">企业最新动态，洞察下一个商业机会</p>
+              <div class="cut-details">
+                <div class="details-box">
+                  <div class="cut-row">
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cut-row cut-row2">
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                    <div class="cut-detailsbox">
+                      <div class="cut-text">
+                        <p class="cut-title">用数据驱动的思维提高营收</p>
+                        <p class="cut-time">2019-07-30</p>
+                        <p class="cut-body">任何一家企业的最终目的都是为了盈利，这一点毋庸置疑。烧钱可能会维持公司发展一段...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cut-btn">
+                  <div class="btn-know">了解更多&nbsp;></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cooper-box">
+        <div class="cooper-content">
+          <p>国家能源集团、伊利”等156＋企业正在使用</p>
+          <div class="cooper-img">
+            <div class="container">
+              <div class="row">
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-1.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-2.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-3.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-4.png" alt=""></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-5.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-6.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-7.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-8.png" alt=""></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-9.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-10.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-11.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-12.png" alt=""></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-13.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-14.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-15.png" alt=""></div>
+                <div class="img-box col-md-3 col-lg-3 col-xs-6 col-sm-6"><img src="./assets/img/g-16.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 客服咨询 -->
+    <div class="service-box">
+      <img src="./assets/img/kefuicon.png" alt="">
+      <p>在线客服&nbsp;(&nbsp;<span class="service-red">3</span>&nbsp;)</p>
+    </div>
+    <div class="home-footer">
+      <div class="footer-up">
+        <p class="footer-p">看看开维创为宝马做的可视化<i class="iconfont arrows-left arrows-icon iconchangyongicon-"></i></p>
+        <div class="footer-btn">
+          <div class="btn-taste">免费体验</div>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="down-box">
+          <div class="down-list">
+            <ul>
+              <li>产品服务</li>
+              <li>数据可视化平台</li>
+              <li>数据服务</li>
+              <li>可视化定制化服务</li>
+              <li>知识云系统</li>
+            </ul>
+            <ul>
+              <li>解决方案</li>
+              <li class="li-active">智慧城市</li>
+              <li>智慧工厂</li>
+              <li>智慧能源</li>
+              <li>智慧交通</li>
+              <li>智慧金融</li>
+              <li>智慧教育</li>
+              <li>智慧政务</li>
+              <li>智慧医疗</li>
+            </ul>
+            <ul>
+              <li>客户案例</li>
+              <li>宝马项目案例</li>
+              <li>伊利项目案例</li>
+              <li>国家能源集团</li>
+              <li>华厚能源项目</li>
+              <li>中国石化</li>
+            </ul>
+            <ul>
+              <li>用户中心</li>
+              <li>产品白皮书</li>
+              <li>使用手册</li>
+              <li>视频教学</li>
+            </ul>
+            <ul>
+              <li>关于我们</li>
+              <li>公司介绍</li>
+              <li>加入我们</li>
+              <li>新闻资讯</li>
+            </ul>
+            <ul>
+              <li>联系方式</li>
+              <li class="erwei-box"><img src="./assets/img/erweima.png" alt=""></li>
+              <li class="erwei-text">微信公众号</li>
+              <li>010-60606727</li>
+              <li class="site-box">北京市海淀区清河中街强佑清河新城-A座14层1419</li>
+            </ul>
+          </div>
+          <div class="down-tail">
+            <div class="tail-list">
+              <p>
+                友情链接： 千锋教育 阿里蜘蛛 PS教程 小程序开发 联想商用电脑推广
+              </p>
+              <p>Copyright © 2008 - 2018 kwcnet. All Rights Reserved |京ICP备 1707</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 移动端页脚 -->
+    <div class="app-footer">
+      <div class="app-box">
+        <div>
+          <p class="app-text">产品服务</p>
+          <p>数据可视化平台</p>
+          <p>数据服务</p>
+          <p>可视化定制服务</p>
+          <p>知识云系统</p>
+        </div>
+        <div>
+          <p class="app-text">解决方案</p>
+          <p>数据可视化平台</p>
+          <p>数据服务</p>
+          <p>可视化定制服务</p>
+          <p>知识云系统</p>
+        </div>
+      </div>
+      <div class="app-bei">
+        <p>Copyright © 2008 - 2018 kwcnet. All Rights Reserved </p>
+        <p>京ICP备 1707</p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/plugs/jquery.js"></script>
+  <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <script src="./js/rollList.js"></script>
+  <script src="./js/plugs/convert.js"></script>
+  <script src="./js/plugs/swiper.js"></script>
+</body>
+
+</html>
