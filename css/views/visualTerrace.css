@@ -64,8 +64,8 @@
 
 }
 
-.product-into a {
-  font-size: 40px;
+.product-into span {
+  font-size: 25px;
 }
 
 .product-example {
@@ -194,6 +194,8 @@
 .custom-box {
   height: 943px;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .custom-place {
