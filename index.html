@@ -935,6 +935,8 @@
     let liIndex = $(this).index();
     $(".show-boxli").eq(liIndex).show().siblings(".show-boxli").hide();
     cutIndex = liIndex
+    clearInterval(timed)
+    timed = setInterval(showTime2, 2000)
   })
   // 左按钮
   $(".control-left").on('click', function () {
@@ -977,21 +979,26 @@
       $(".car-box").eq(cutIndex).addClass("active")
       // $(".car-box2").eq(cutIndex).addClass("active")
     }
-    // $(".car-box").mouseover(function(){
-    //   clearInterval(timed)
-    // }).mouseout(function(){
-    //   timed = setInterval(showTime2, 2000)
-    // })
-    // $(".control-right").mouseover(function(){
-    //   clearInterval(timed)
-    // }).mouseout(function(){
-    //   timed = setInterval(showTime2, 2000)
-    // })
-    // $(".control-left").mouseover(function(){
-    //   clearInterval(timed)
-    // }).mouseout(function(){
-    //   timed = setInterval(showTime2, 2000)
-    // })
+    $(".car-box").mouseover(function(){
+      clearInterval(timed)
+    }).mouseout(function(){
+      timed = setInterval(showTime2, 2000)
+    })
+    $(".control-right").mouseover(function(){
+      clearInterval(timed)
+    }).mouseout(function(){
+      timed = setInterval(showTime2, 2000)
+    })
+    $(".control-left").mouseover(function(){
+      clearInterval(timed)
+    }).mouseout(function(){
+      timed = setInterval(showTime2, 2000)
+    })
+    $(".show-content").mouseover(function(){
+      clearInterval(timed)
+    }).mouseout(function(){
+      timed = setInterval(showTime2, 2000)
+    })
     // $(".show-boxli").hover(function () {
     //   clearInterval(timed)
     // }, tabAuto)
