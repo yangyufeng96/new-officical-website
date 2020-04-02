@@ -1,31 +1,40 @@
+@media (min-width: 992px) and (max-width: 1200px) {
 
-@media (min-width: 992px) and (max-width: 1200px){
-  
-  .tab-boxImg{
+  .tab-boxImg {
     width: 100%;
   }
-  .three-content img:nth-child(2), .three-content img:nth-child(3), .three-content img:nth-child(4){
+
+  .three-content img:nth-child(2),
+  .three-content img:nth-child(3),
+  .three-content img:nth-child(4) {
     margin-left: -54%;
   }
-  .three-content{
+
+  .three-content {
     margin: 0 auto;
   }
-  .three-content img:nth-child(1){
+
+  .three-content img:nth-child(1) {
     margin-left: 7%;
   }
-  .btn-position2{
+
+  .btn-position2 {
     right: 10px;
   }
-  .btn-position{
+
+  .btn-position {
     left: 10px;
   }
-  .app-footer{
+
+  .app-footer {
     display: none;
   }
-  .home-footer{
+
+  .home-footer {
     display: block;
   }
 }
+
 @media (max-width: 992px) {
   .custom-box {
     background: rgba(210, 224, 246, 0.3);
@@ -118,75 +127,95 @@
     display: block;
   }
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
   .top-text {
     font-size: 30px;
     margin-top: 90px;
   }
-  .top-text2{
+
+  .top-text2 {
     font-size: 14px;
     margin-top: 15px;
   }
-  .top-text3{
+
+  .top-text3 {
     font-size: 14px;
   }
-  .custom-text p:nth-of-type(2){
-font-size: 18px;
+
+  .custom-text p:nth-of-type(2) {
+    font-size: 18px;
   }
-  .custom-text p:nth-child(4){
+
+  .custom-text p:nth-child(4) {
     font-size: 14px;
   }
-  .custom-text{
+
+  .custom-text {
     padding: 0;
     margin-top: 15px;
   }
-  .one-img{
+
+  .one-img {
     padding: 0;
     height: 187px;
   }
-  .custom-one{
+
+  .custom-one {
     height: 390px;
   }
-  .two-text p:nth-child(1){
+
+  .two-text p:nth-child(1) {
     font-size: 16px;
     margin-top: 60px;
   }
-  .two-text p:nth-child(2){
+
+  .two-text p:nth-child(2) {
     display: none;
   }
-  .two-text p:nth-child(3){
+
+  .two-text p:nth-child(3) {
     margin-top: 15px;
   }
-  .custom-two{
+
+  .custom-two {
     height: 320px;
   }
-  .carousel-text p:nth-of-type(1){
+
+  .carousel-text p:nth-of-type(1) {
     font-size: 18px;
   }
-  .carousel-text p:nth-of-type(2){
+
+  .carousel-text p:nth-of-type(2) {
     font-size: 14px;
   }
-  .carousel-text{
+
+  .carousel-text {
     width: 100%;
     padding: 0 15px;
     height: 190px;
   }
-  .carousel-box{
+
+  .carousel-box {
     width: 100%;
     padding: 0 15px;
     height: 269px;
   }
-  .carousel-img{
+
+  .carousel-img {
     height: 202px;
   }
-  .carousel-img img{
+
+  .carousel-img img {
     width: 100%;
     height: 100%;
   }
-  .custom-carousel{
+
+  .custom-carousel {
     height: 459px;
   }
-  .custom-four{
+
+  .custom-four {
     height: 240px;
   }
 }

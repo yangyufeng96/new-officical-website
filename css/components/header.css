@@ -140,8 +140,8 @@
 .dropdown-menu>li>a>text:hover{
   border-bottom: 1px solid #1890FF;
 }
-a:hover,
-a:focus {
+.home-headr a:hover,
+.home-headr a:focus {
   color: #1890FF;
 }
 
@@ -151,7 +151,7 @@ a:focus {
 }
 
 .headr-logo a:hover,
-a:focus {
+.headr-logo a:focus {
   text-decoration: none;
 }
 
