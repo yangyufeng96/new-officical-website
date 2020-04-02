@@ -350,7 +350,6 @@
 
   .product-text {
     font-size: 18px;
-    margin-top: 60px;
   }
 
   .example-text {
@@ -508,7 +507,7 @@
   }
 
   .encrypt-box {
-    height: 270px;
+    height: 420px;
   }
 
   .encrypt-text2 p:nth-of-type(4) {
