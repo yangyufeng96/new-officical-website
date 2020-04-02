@@ -559,6 +559,40 @@
   .card-text2 {
     width: calc(100% - 80px);
   }
+  
+  .card-btn2 {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .btn-liaojie {
+    width: 80px;
+    height: 28px;
+    border: 1px solid #fff;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .btn-taste2 {
+    width: 80px;
+    height: 28px;
+    background: #fff;
+    color: rgba(24, 144, 255, 1);
+    font-size: 12px;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .card-box2 {
     width: 100%;
