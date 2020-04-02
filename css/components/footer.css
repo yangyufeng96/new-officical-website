@@ -69,6 +69,10 @@
   justify-content: space-between;
 }
 
+.down-box .down-list ul .li-active {
+  color: #1890FF;
+}
+
 ul li {
   list-style: none;
 }
@@ -142,8 +146,9 @@ ul li {
   color: #1890FF;
   cursor: pointer;
 }
-.down-box ul li:nth-of-type(1):hover{
-  color: #fff;
+
+.down-box .down-list ul>li:hover:nth-of-type(1){
+  color: #ffffff;
   cursor: default;
 }
 .app-footer {
