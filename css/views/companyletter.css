@@ -176,7 +176,6 @@
 }
 
 .company-information {
-  height: 320px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
@@ -193,6 +192,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .information-text div {
