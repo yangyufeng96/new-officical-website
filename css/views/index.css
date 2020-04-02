@@ -192,12 +192,10 @@ p {
 }
 
 .car-btn {
-  width: 100%;
+  width: 392px;
   height: 74px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-
 }
 
 .control-btn {

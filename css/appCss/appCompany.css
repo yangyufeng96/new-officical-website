@@ -63,12 +63,11 @@
     height: 100%;
   }
 
-  .company-information {
-    height: 682px;
-  }
+  
 
   .information-text {
     height: 50%;
+    margin-top: 20px;
   }
 
   .dummy-content {
@@ -157,14 +156,7 @@
     /* height: 100%; */
   }
 
-  .company-center {
-    /* width: ; */
-    /* height: 100%; */
-  }
-
-  .company-information {
-    height: 341px;
-  }
+  
 
   .information-text {
     height: 50%;
