@@ -106,7 +106,7 @@
             <p class="control-left"><i class="iconfont iconchangyongicon-1"></i></p>
             <p class="control-right"><i class="iconfont iconchangyongicon-"></i></p>
           </div>
-          <div class="car-btn">
+          <div class="cars-btn">
             <div class="car-box active">伊利项目</div>
             <div class="car-box">宝马项目</div>
             <div class="car-box">国家电网</div>
@@ -935,8 +935,6 @@
     let liIndex = $(this).index();
     $(".show-boxli").eq(liIndex).show().siblings(".show-boxli").hide();
     cutIndex = liIndex
-    clearInterval(timed)
-    timed = setInterval(showTime2, 2000)
   })
   // 左按钮
   $(".control-left").on('click', function () {
