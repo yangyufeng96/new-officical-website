@@ -153,11 +153,13 @@
   border: 1px solid rgba(0, 0, 0, 1);
   color: rgba(0, 0, 0, 1);
   opacity: 0.3;
+  text-decoration: none;
 }
 
 .right-page {
   color: rgba(24, 144, 255, 1);
   border: 1px solid rgba(24, 144, 255, 1);
+  text-decoration: none;
 }
 
 .pagination-text {
@@ -180,9 +182,6 @@
   width: calc(100% - 40px);
   height: 456px;
   margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .serial-box {
@@ -217,17 +216,17 @@
   font-size: 18px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(0, 0, 0, 1);
   line-height: 28px;
-  opacity: 0.85;
   margin: 0;
 }
-.serial-text p:nth-of-type(2):hover{
+.serial-text p:nth-of-type(2) a {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+}
+.serial-text p:nth-of-type(2):hover a{
   color: rgba(24, 144, 255, 1);
- }
- .serial-text p:nth-of-type(2):hover {
-   background: #f0f;
- }
+}
+
 .list-line {
   width: 100%;
   height: 1px;
@@ -240,6 +239,7 @@
   border-top: 1px dashed rgba(0, 0, 0, 0.1);
   margin: 0;
 }
+
 .list-crumbs {
   width: 100%;
   height: 50px;
@@ -262,11 +262,13 @@
   margin-left: 15px;
   /* line-height: 0.; */
 }
-.page-box{
+
+.page-box {
   width: 100%;
   height: 44px;
 }
-.page{
+
+.page {
   width: 100%;
   height: 44px;
   display: flex;

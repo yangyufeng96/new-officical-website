@@ -172,7 +172,10 @@
   line-height: 30px;
   margin: 0;
 }
-
+.details-text p a {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+}
 .details-text p:nth-of-type(2) {
   font-size: 16px;
   font-family: Microsoft YaHei;
@@ -223,9 +226,6 @@
   width: calc(100% - 40px);
   height: 456px;
   margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .serial-box {
@@ -245,19 +245,17 @@
 
 .serial-text {
   width: 230px;
-
 }
 
 .serial-text p:nth-of-type(1) {
   font-size: 14px;
   font-family: Microsoft YaHei;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.65);
-  /* line-height: .; */
-  opacity: 0.65;
-  margin: 0;
 }
-
+.serial-text p a {
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+}
 .serial-text p:nth-of-type(2) {
   font-size: 18px;
   font-family: Microsoft YaHei;
