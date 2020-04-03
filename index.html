@@ -20,8 +20,7 @@
     <!-- 导航 -->
     <div class="home-headr">
       <nav class="navbar">
-        <div class="container container2">
-          <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container2">
           <div class="navbar-header">
             <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
               <img src="./assets/img/LOGO.png" alt="">
@@ -34,7 +33,6 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navCenter" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="dropdown btnBox dropdownActive dropdownShow"><a href="#">首页</a></li>
@@ -77,11 +75,11 @@
               </li>
             </ul>
 
-          </div><!-- /.navbar-collapse -->
+          </div>
           <div class="headr-page">
             <span>进入sv.data</span>
           </div>
-        </div><!-- /.container-fluid -->
+        </div>
       </nav>
     </div>
     <div class="content-box">
@@ -613,8 +611,12 @@
                       <div class="card-body2">提供多种数据源支持、可本地部署、支持3D可视化、数据源跨平台兼容、直观展示企业数据的数据可视化平台。</div>
                     </div>
                     <div class="card-btn2">
-                      <a href="javascript:void(0)" class="to-detail"><div class="btn-liaojie">了解更多&nbsp;></div></a>
-                      <a href="javascript:void(0)" class="to-detail"><div class="btn-taste2">立即体验</div></a>
+                      <a href="javascript:void(0)" class="to-detail">
+                        <div class="btn-liaojie">了解更多&nbsp;></div>
+                      </a>
+                      <a href="javascript:void(0)" class="to-detail">
+                        <div class="btn-taste2">立即体验</div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -629,8 +631,12 @@
                       <div class="card-body2">为您提供数据可视、数据挖掘、数据加密、数据建模、数据分析、数据定制的一系列数据可视化服务。</div>
                     </div>
                     <div class="card-btn2">
-                      <a href="./views/ProductSerice.html"><div class="btn-liaojie">了解更多&nbsp;></div></a>
-                      <a href="./views/ProductSerice.html"><div class="btn-taste2">立即体验</div></a>
+                      <a href="./views/ProductSerice.html">
+                        <div class="btn-liaojie">了解更多&nbsp;></div>
+                      </a>
+                      <a href="./views/ProductSerice.html">
+                        <div class="btn-taste2">立即体验</div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -645,8 +651,12 @@
                       <div class="card-body2">全面了解客户的大数据可视化需求、产品用途及对产品的特殊要求，为客户提供专业定制化服务打造高质量的大数据可视化解决方案。</div>
                     </div>
                     <div class="card-btn2">
-                      <a href="./views/CustomServe.html"><div class="btn-liaojie">了解更多&nbsp;></div></a>
-                      <a href="./views/CustomServe.html"><div class="btn-taste2">立即体验</div></a>
+                      <a href="./views/CustomServe.html">
+                        <div class="btn-liaojie">了解更多&nbsp;></div>
+                      </a>
+                      <a href="./views/CustomServe.html">
+                        <div class="btn-taste2">立即体验</div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -977,24 +987,24 @@
       $(".car-box").eq(cutIndex).addClass("active")
       // $(".car-box2").eq(cutIndex).addClass("active")
     }
-    $(".car-box").mouseover(function(){
+    $(".car-box").mouseover(function () {
       clearInterval(timed)
-    }).mouseout(function(){
+    }).mouseout(function () {
       timed = setInterval(showTime2, 2000)
     })
-    $(".control-right").mouseover(function(){
+    $(".control-right").mouseover(function () {
       clearInterval(timed)
-    }).mouseout(function(){
+    }).mouseout(function () {
       timed = setInterval(showTime2, 2000)
     })
-    $(".control-left").mouseover(function(){
+    $(".control-left").mouseover(function () {
       clearInterval(timed)
-    }).mouseout(function(){
+    }).mouseout(function () {
       timed = setInterval(showTime2, 2000)
     })
-    $(".show-content").mouseover(function(){
+    $(".show-content").mouseover(function () {
       clearInterval(timed)
-    }).mouseout(function(){
+    }).mouseout(function () {
       timed = setInterval(showTime2, 2000)
     })
     // $(".show-boxli").hover(function () {

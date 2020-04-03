@@ -1,4 +1,8 @@
 @media (min-width: 992px) and (max-width: 1200px){
+  .container2 {
+    width: 100%;
+    max-width: 1200px;
+  }
   .video-text {
     width: 100%;
   }
@@ -61,6 +65,10 @@
 
 /* 小于992的时候 */
 @media (max-width: 992px) {
+  .container2 {
+    width: 100%;
+    max-width: 1200px;
+  }
   .card-box {
     display: none;
   }
