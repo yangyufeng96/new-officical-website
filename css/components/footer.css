@@ -3,10 +3,10 @@
   height: 852px;
 
 }
+
 .btn-taste {
   width: 108px;
   height: 30px;
-  /* border: 0.01rem solid rgba(24,144,255,1); */
   border-radius: 16px;
   background: #1890FF;
   display: flex;
@@ -14,6 +14,7 @@
   align-items: center;
   color: #fff;
 }
+
 .footer-up {
   width: 100%;
   height: 352px;
@@ -28,13 +29,12 @@
   justify-content: center;
   height: 50%;
   font-size: 40px;
-  font-family: Microsoft YaHei;
-  font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 70px;
   align-items: flex-end;
 }
-.footer-p i{
+
+.footer-p i {
   font-size: 40px;
   margin-left: 33px;
 }
@@ -69,29 +69,34 @@
   justify-content: space-between;
 }
 
+.down-list .to-detail li {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
 .down-box .down-list ul .li-active {
   color: #1890FF;
 }
 
-ul li {
-  list-style: none;
-}
-.erwei-box{
+.erwei-box {
   width: 108px;
   height: 108px;
 }
-.erwei-box img{
+
+.erwei-box img {
   width: 100%;
   height: 100%;
 }
-.erwei-text{
+
+.erwei-text {
   width: 108px;
   text-align: center;
 }
-.site-box{
+
+.site-box {
   width: 168px;
-  
 }
+
 .down-box ul li {
   font-size: 14px;
   font-family: Microsoft YaHei;
@@ -100,10 +105,8 @@ ul li {
   line-height: 40px;
 }
 
-.down-box ul li:nth-of-type(1) {
+.down-box ul>li:first-child {
   font-size: 18px;
-  font-family: Microsoft YaHei;
-  font-weight: 400;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -123,52 +126,49 @@ ul li {
   justify-content: space-evenly;
 }
 
-.tail-list p:nth-of-type(1) {
+.tail-list p:nth-child(1) {
   font-size: 12px;
-  font-family: Microsoft YaHei;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
-  /* line-height: .7rem; */
 }
 
-.tail-list p:nth-of-type(2) {
+.tail-list p:nth-child(2) {
   font-size: 12px;
-  font-family: Microsoft YaHei;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 1);
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.tail-list p {
-  margin: 0;
-}
-.down-box ul:nth-of-type(1) li:hover,.down-box ul:nth-of-type(2) li:hover,.down-box ul:nth-of-type(3) li:hover,.down-box ul:nth-of-type(4) li:hover,.down-box ul:nth-of-type(5) li:hover{
+.tail-list p a:hover {
   color: #1890FF;
   cursor: pointer;
 }
 
-.down-box .down-list ul>li:hover:nth-of-type(1){
-  color: #ffffff;
-  cursor: default;
+.down-box .to-detail li:hover {
+  color: #1890FF;
+  cursor: pointer;
 }
+
 .app-footer {
   width: 100%;
   height: 888px;
   display: none;
   background: rgba(2, 14, 24, 1);
 }
-@media (min-width: 992px) and (max-width: 1200px){
-  .down-box{
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .down-box {
     width: calc(100% - 30px);
   }
 }
-@media (max-width: 992px){
+
+@media (max-width: 992px) {
   .home-footer {
     display: none;
   }
+
   .app-footer {
     display: block;
   }
+
   .app-box {
     width: 100%;
     height: 762px;
@@ -177,61 +177,67 @@ ul li {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .app-box div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 381px;
   }
-  
+
   .app-box p {
     font-size: 28px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.65);
     text-indent: 24px;
   }
-  
+
   .app-box p:nth-of-type(1) {
     font-size: 32px;
     color: #fff;
   }
 
-.app-bei {
-  width: 100%;
-  height: 125px;
-  font-size: 22px;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .app-bei {
+    width: 100%;
+    height: 125px;
+    font-size: 22px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .app-bei p {
+    text-indent: 32px;
+  }
 }
 
-.app-bei p {
-  text-indent: 32px;
-}
-}
-@media(max-width: 768px){
-  .app-box div{
+@media(max-width: 768px) {
+  .app-box div {
     height: 190px;
   }
-  .app-footer{
+
+  .app-footer {
     height: 440px;
   }
-  .app-box{
+
+  .app-box {
     height: 381px;
   }
-  .app-box p{
+
+  .app-box p {
     font-size: 14px;
     text-indent: 12px;
   }
-  .app-box p:nth-of-type(1){
+
+  .app-box p:nth-of-type(1) {
     font-size: 16px;
   }
-  .app-bei{
+
+  .app-bei {
     height: 62px;
     font-size: 12px;
     line-height: 18px;

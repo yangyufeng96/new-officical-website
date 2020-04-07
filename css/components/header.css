@@ -35,7 +35,7 @@
 }
 
 .dropdown-double {
-  width: 160px;
+  width: 250px;
 }
 
 .dropdown-menu>li>a:hover {
@@ -48,7 +48,7 @@
   background: none;
 }
 
-.dropdown-double>div {
+.dropdown-double>li {
   margin-top: 4px;
   margin-bottom: 2px;
   margin-left: 10px;
@@ -125,17 +125,6 @@
   background: none;
 }
 
-.dropdown>a>text:hover {
-  border-bottom: 1px solid #1890FF;
-}
-
-.dropdown-double>div>a>text:hover {
-  border-bottom: 1px solid #1890FF;
-}
-
-.dropdown-menu>li>a>text:hover {
-  border-bottom: 1px solid #1890FF;
-}
 
 .home-headr a:hover,
 .home-headr a:focus {

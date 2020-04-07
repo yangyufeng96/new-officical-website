@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -56,9 +51,6 @@
 .row{
   margin: 0;
   padding: 0;
-}
-p {
-  margin: 0;
 }
 
 .container {
