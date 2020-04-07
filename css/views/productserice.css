@@ -71,7 +71,9 @@
   display: flex;
   justify-content: center;
 }
-
+.example-row {
+  width: 1200px;
+}
 .example-box {
   width: 1200px;
   height: 100%;
@@ -238,13 +240,16 @@
 .custom-box {
   height: 943px;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .custom-place {
+  width: 1200px;
+  margin-top: 120px;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 .custom-top {
@@ -252,15 +257,14 @@
   display: flex;
 }
 
-.custom-top span:nth-child(1) {
+.custom-twig {
   display: inline-block;
   width: 4px;
   height: 56px;
   background: rgba(24, 144, 255, 1);
 }
 
-.custom-top span:nth-child(2) {
-  display: inline-block;
+.custom-tetx p:nth-child(1) {
   height: 30px;
   font-size: 30px;
   font-family: Microsoft YaHei;
@@ -271,9 +275,8 @@
   margin-left: 20px;
 }
 
-.custom-top span:nth-child(3) {
-  margin-top: 40px;
-  margin-left: -120px;
+.custom-tetx p:nth-child(2) {
+  margin-top: 10px;
   height: 12px;
   font-size: 14px;
   font-family: Microsoft YaHei;
@@ -281,28 +284,36 @@
   color: rgba(0, 0, 0, 1);
   opacity: 0.65;
   line-height: 1;
+  margin-left: 20px;
 }
 
 p {
   margin: 0;
 }
 
-
-.custom-text2 {
-  /* margin-top: 160px; */
+.cxt-1 {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  height: 357px;
 }
 
-.custom-title p {
+.cxt-1 .custom-title {
+  margin-left: 30px;
+}
+
+.cxt-2 {
+  display: flex;
+  align-items: center;
+  height: 357px;
+}
+
+.cxt-2 .custom-title {
+  margin-right: 30px;
+}
+
+.explain-text {
   margin-top: 20px;
-  line-height: 30px;
-  font-size: 16px;
-  font-family: Microsoft YaHei;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
-  line-height: 30px;
-  opacity: 0.85;
 }
 
 .place-box {
@@ -350,7 +361,8 @@ p {
 .custom-img img {
   cursor: pointer;
   transition: all 0.6s;
-  margin-left: -40px;
+  margin-left: 8px;
+  margin-right: 4px;
   width: 98%;
   height: 98%;
 }
@@ -366,11 +378,12 @@ p {
 .custom-img2 img {
   cursor: pointer;
   transition: all 0.6s;
-  margin-right: -40px;
   width: 98%;
   height: 98%;
   position: relative;
-  left: 2%;
+  left: 0.6%;
+  object-fit: cover;
+  z-index: 9;
 }
 
 .custom-img2 img:hover {

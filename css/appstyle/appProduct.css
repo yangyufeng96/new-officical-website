@@ -27,7 +27,7 @@
 }
 
 @media(max-width: 992px) {
-  .find-auto {
+  div.find-auto {
     width: 100%;
   }
 
@@ -95,6 +95,7 @@
     height: 372px;
     margin-top: 0px;
     text-align: center;
+    padding: 0 30px;
   }
 
   .example-title {
@@ -108,7 +109,7 @@
     margin: 10px 0 20px 0;
   }
 
-  .example-text {
+  .example-left .example-text {
     font-size: 28px;
   }
 
@@ -121,7 +122,7 @@
     height: 582px;
   }
 
-  .find-box {
+  div.find-box {
     height: 860px;
   }
 
@@ -213,7 +214,7 @@
   }
 
   /* 数据建模 */
-  .modeling-box {
+  div.modeling-box {
     height: 766px;
     background: none;
   }
@@ -223,7 +224,7 @@
     flex-direction: column;
   }
 
-  .visu-box2 {
+  div.visu-box2 {
     width: 100%;
     display: flex;
     flex-direction: column;

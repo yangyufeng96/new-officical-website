@@ -73,7 +73,7 @@ body {
   display: flex;
   justify-content: center;
   background: url(../../assets/img/banner_ny.png) no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .article-introduce-cs {
   width: 100%;
