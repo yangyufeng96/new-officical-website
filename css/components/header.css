@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-.dropdown-double {
+.dropdown-doublerow {
   width: 250px;
 }
 
@@ -48,7 +48,7 @@
   background: none;
 }
 
-.dropdown-double>li {
+.dropdown-doublerow>li {
   margin-top: 4px;
   margin-bottom: 2px;
   margin-left: 10px;
@@ -233,7 +233,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .dropdown-double>div {
+  .dropdown-doublerow>div {
     display: flex;
     flex-direction: column;
     align-items: center;

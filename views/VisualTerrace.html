@@ -19,70 +19,65 @@
 <body>
   <!-- 数据可视化平台页面 -->
   <div class="detail-box">
-    <!-- 导航 -->
     <div class="home-headr">
       <nav class="navbar">
-        <div class="container container2">
-          <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container2">
           <div class="navbar-header">
-            <a class="navbar-brand d-flex justify-content-center align-items-center" href="../index.html">
-              <img src="../assets/img/LOGO.png" alt="">
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+              <img src="../assets/img/LOGO.png">
             </a>
             <button type="button" class="navbar-toggle collapsed navPadding" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
+              data-target="#head-navbar" aria-expanded="false">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navCenter" id="bs-example-navbar-collapse-1">
+          <div class="collapse navbar-collapse navCenter" id="head-navbar">
+            <div class="mask"></div>
             <ul class="nav navbar-nav">
-              <li class="dropdown btnBox  dropdownShow"><a href="../index.html">首页</a></li>
+              <li class="dropdown btnBox dropdownActive dropdownShow"><a href="#">首页</a></li>
               <li class="dropdown btnBox">
-                <a href="#" class="dropdown-toggle navActive" data-toggle="dropdown" id="navbarDropdown" role="button"
-                  aria-haspopup="true" aria-expanded="false"><text>产品服务</text><span
-                    class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                <a href="#" class="dropdown-toggle navActive" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">产品服务<span class="spanBtn glyphicon glyphicon-menu-down"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="active-index dropdownActive"><a class="navActive" href="#"><text>数据可视化平台</text></a></li>
-                  <li><a href="../views/ProductSerice.html"><text>数据服务</text></a></li>
-                  <li><a href="../views/CustomServe.html"><text>可视化定制服务</text></a></li>
-                  <li><a href="#"><text>知识云系统</text></a></li>
+                  <li><a href="./views/VisualTerrace.html">数据可视化平台</a></li>
+                  <li><a href="./views/ProductSerice.html">数据服务</a></li>
+                  <li><a href="./views/CustomServe.html">可视化定制服务</a></li>
+                  <li><a href="./views/ClientCase.html">知识云系统</a></li>
                 </ul>
               </li>
-              <li class="dropdown btnBox">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" role="button"
-                  aria-haspopup="true" aria-expanded="false"><text>解决方案</text><span
-                    class="spanBtn glyphicon glyphicon-menu-down"></span></a>
-                <ul class="dropdown-menu dropdown-double" style="min-width: 1.44rem;">
-                  <div><a href="#"><text>智慧城市</text></a></div>
-                  <div><a href="#"><text>智慧工厂</text></a></div>
-                  <div><a href="./SmartFinance.html"><text>智慧金融</text></a></div>
-                  <div><a href="#"><text>智慧交通</text></a></div>
-                  <div><a href="./Solution.html"><text>智慧能源</text></a></div>
-                  <div><a href="#"><text>智慧教育</text></a></div>
-                  <div><a href="#"><text>智慧政务</text></a></div>
-                  <div><a href="#"><text>智慧医疗</text></a></div>
-                </ul>
-              </li>
-              <li class="dropdown btnBox"><a href="../views/ClientCase.html"><text>客户案例</text></a></li>
-              <li class="dropdown btnBox"><a href="../views/ClientCase.html"><text>用户中心</text></a></li>
               <li class="dropdown btnBox">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false"><text>关于我们</text><span class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                  aria-expanded="false">解决方案<span class="spanBtn glyphicon glyphicon-menu-down"></span></a>
+                <ul class="dropdown-menu dropdown-doublerow">
+                  <li><a href="#">智慧城市</a></li>
+                  <li><a href="#">智慧工厂</a></li>
+                  <li><a href="./views/SmartFinance.html">智慧金融</a></li>
+                  <li><a href="#">智慧交通</a></li>
+                  <li><a href="./views/Solution.html">智慧能源</a></li>
+                  <li><a href="#">智慧教育</a></li>
+                  <li><a href="#">智慧政务</a></li>
+                  <li><a href="#">智慧医疗</a></li>
+                </ul>
+              </li>
+              <li class="dropdown btnBox"><a href="./views/ClientCase.html">客户案例</a></li>
+              <li class="dropdown btnBox"><a href="./views/ClientCase.html">用户中心</a></li>
+              <li class="dropdown btnBox">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">关于我们<span class="spanBtn glyphicon glyphicon-menu-down"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="./views/CompanyLetter.html"><text>公司介绍</text></a></li>
-                  <li><a href="./views/Aboutus.html"><text>加入我们</text></a></li>
-                  <li><a href="./views/NewsList.html"><text>新闻资讯</text></a></li>
+                  <li><a href="./views/CompanyLetter.html">公司介绍</a></li>
+                  <li><a href="./views/Aboutus.html">加入我们</a></li>
+                  <li><a href="./views/NewsList.html">新闻资讯</a></li>
                 </ul>
               </li>
             </ul>
-          </div><!-- /.navbar-collapse -->
+          </div>
           <div class="headr-page">
             <span>进入sv.data</span>
           </div>
-        </div><!-- /.container-fluid -->
+        </div>
       </nav>
     </div>
     <!-- 新闻内容 -->
@@ -318,11 +313,14 @@
         </div>
       </div>
     </div>
+    <!-- 底部 -->
     <div class="home-footer">
       <div class="footer-up">
-        <p class="footer-p">看看开维创为宝马做的可视化<i class="iconfont arrows-left arrows-icon iconchangyongicon-"></i></p>
+        <p class="footer-p">看看开维创为宝马做的可视化&nbsp;&nbsp;<span style="font-size: 30px;"> 》</span> </p>
         <div class="footer-btn">
-          <div class="btn-taste">免费体验</div>
+          <a href="javascript:void(0)" class="to-detail">
+            <div class="btn-taste">免费体验 ></div>
+          </a>
         </div>
       </div>
       <div class="footer-down">
@@ -330,41 +328,87 @@
           <div class="down-list">
             <ul>
               <li>产品服务</li>
-              <li>数据可视化平台</li>
-              <li>数据服务</li>
-              <li>可视化定制化服务</li>
-              <li>知识云系统</li>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">数据可视化平台</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">数据服务</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">可视化定制化服务</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">知识云系统</li>
+              </a>
             </ul>
             <ul>
               <li>解决方案</li>
-              <li class="li-active">智慧城市</li>
-              <li>智慧工厂</li>
-              <li>智慧能源</li>
-              <li>智慧交通</li>
-              <li>智慧金融</li>
-              <li>智慧教育</li>
-              <li>智慧政务</li>
-              <li>智慧医疗</li>
+              <a href="javascript:void(0)" class="to-detail">
+                <li class="li-active" style="cursor: pointer;">智慧城市</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧工厂</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧能源</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧交通</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧金融</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧教育</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧政务</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">智慧医疗</li>
+              </a>
             </ul>
             <ul>
               <li>客户案例</li>
-              <li>宝马项目案例</li>
-              <li>伊利项目案例</li>
-              <li>国家能源集团</li>
-              <li>华厚能源项目</li>
-              <li>中国石化</li>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">宝马项目案例</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">伊利项目案例</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">国家能源集团</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">华厚能源项目</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">中国石化</li>
+              </a>
             </ul>
             <ul>
               <li>用户中心</li>
-              <li>产品白皮书</li>
-              <li>使用手册</li>
-              <li>视频教学</li>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">产品白皮书</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">使用手册</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">视频教学</li>
+              </a>
             </ul>
             <ul>
               <li>关于我们</li>
-              <li>公司介绍</li>
-              <li>加入我们</li>
-              <li>新闻资讯</li>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">公司介绍</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">加入我们</li>
+              </a>
+              <a href="javascript:void(0)" class="to-detail">
+                <li style="cursor: pointer;">新闻资讯</li>
+              </a>
             </ul>
             <ul>
               <li>联系方式</li>
@@ -377,7 +421,12 @@
           <div class="down-tail">
             <div class="tail-list">
               <p>
-                友情链接： 千锋教育 阿里蜘蛛 PS教程 小程序开发 联想商用电脑推广
+                友情链接：
+                <a href="javascript:void(0)" class="to-detail">千锋教育</a>
+                <a href="javascript:void(0)" class="to-detail">阿里蜘蛛</a>
+                <a href="javascript:void(0)" class="to-detail">PS教程</a>
+                <a href="javascript:void(0)" class="to-detail">小程序开发</a>
+                <a href="javascript:void(0)" class="to-detail">联想商用电脑推广</a>
               </p>
               <p>Copyright © 2008 - 2018 kwcnet. All Rights Reserved |京ICP备 1707</p>
             </div>
