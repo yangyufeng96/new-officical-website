@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.to-detail:hover, .to-detail:active {
+  text-decoration: none;
+}
+
 .client-box {
   margin-top: 48px;
 }
@@ -177,17 +181,17 @@
   margin-left: 20px;
 }
 
-.client-dynamic a {
+.client-dynamic .link {
+  line-height: 20px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.85);
-  line-height: 20px;
   text-decoration: none;
 }
-.dynamic-img a.link {
+.dynamic-img .link {
   display: -webkit-box;
--webkit-box-orient: vertical;
--webkit-line-clamp: 3;
-overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .dynamic-list a {
   overflow:hidden; /*内容超出宽度时隐藏超出部分的内容 */
@@ -259,6 +263,7 @@ overflow: hidden;
 }
 
 .dynamic-img div p:nth-child(2) {
+  padding: 0 10px;
   font-size: 12px;
   font-family: Microsoft YaHei;
   font-weight: 400;
