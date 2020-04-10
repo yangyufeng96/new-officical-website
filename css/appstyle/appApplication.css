@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) {
+  .logo {
+    width: 80vw;
+    top: 10px;
+    background-size: contain;
+  }
+  #container, .login-form-box-bg {
+    display: none;
+  }
+}
