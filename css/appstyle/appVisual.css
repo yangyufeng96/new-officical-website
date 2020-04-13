@@ -290,6 +290,7 @@
 
 @media (max-width: 768px) {
   .product-talking{
+    height: 210px;
     margin-top: 49px;
   }
   .visu-box{
@@ -297,9 +298,6 @@
   }
   .product-text2,.product-text3{
     font-size: 12px;
-  }
-  .product-talking{
-    height: 210px;
   }
   .both-box{
     height: 515px;

@@ -4,9 +4,9 @@ $('.btnBox').mouseenter(function () {
 // $('.dropdown-menu').mouseenter(function () {
 //   $(this).attr("style", "display:block;");
 // })
-// $('.dropdown-menu').mouseleave(function () {
-//   $(this).attr("style", "display:none;");
-// })
+$('.mask').click(function () {
+  
+})
 $('.btnBox').mouseleave(function () {
   $(this).children().eq(1).attr("style", "display:none;");
 })

@@ -339,14 +339,14 @@
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .product-content {
     background: rgba(210, 224, 246, 0.3);
   }
 
   .product-talking {
-    margin-top: 49px;
     height: 210px;
+    margin-top: 49px;
   }
 
   .product-text {

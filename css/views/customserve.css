@@ -8,6 +8,17 @@
   background-size: cover;
 }
 
+.costom-top .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.visu-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .custom-text {
   overflow: hidden;
 }
@@ -289,7 +300,6 @@
   font-family: Microsoft YaHei;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
-  margin-top: 180px;
 }
 
 .top-text2 {
