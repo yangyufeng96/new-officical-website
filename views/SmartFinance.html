@@ -416,17 +416,17 @@
     }
   }
   // 导航点击时的变化
-  $('.dropdown-toggle').bind('click', function () {
-    if ($(this).find('span').is('.glyphicon-menu-down') == true) {
-      $(this).find('span').removeClass('glyphicon-menu-down')
-      $(this).find('span').addClass('glyphicon-menu-up')
-      $(this).find('span').css('color', '#1890FF')
-    } else {
-      $(this).find('span').removeClass('glyphicon-menu-up')
-      $(this).find('span').addClass('glyphicon-menu-down')
-      $(this).find('span').css('color', '#000000')
-    }
-  })
+  // $('.dropdown-toggle').bind('click', function () {
+  //   if ($(this).find('span').is('.glyphicon-menu-down') == true) {
+  //     $(this).find('span').removeClass('glyphicon-menu-down')
+  //     $(this).find('span').addClass('glyphicon-menu-up')
+  //     $(this).find('span').css('color', '#1890FF')
+  //   } else {
+  //     $(this).find('span').removeClass('glyphicon-menu-up')
+  //     $(this).find('span').addClass('glyphicon-menu-down')
+  //     $(this).find('span').css('color', '#000000')
+  //   }
+  // })
   var swiper = new Swiper('.swiper-container', {
     pagination: '.swiper-pagination',
     slidesPerView: 3,

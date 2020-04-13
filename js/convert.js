@@ -30,15 +30,11 @@ function drop() {
 		})
 	}
 }
-// 导航点击时的变化
-$('.dropdown-toggle').bind('click', function () {
-	if ($(this).find('span').is('.glyphicon-menu-down') == true) {
-		$(this).find('span').removeClass('glyphicon-menu-down')
-		$(this).find('span').addClass('glyphicon-menu-up')
-		$(this).find('span').css('color', '#1890FF')
+// 手机端导航点击
+$('.dropdown').bind('click', function () {
+	if ($(this).hasClass("open")) {
+		$(this).children().eq(1).css("display", "none")
 	} else {
-		$(this).find('span').removeClass('glyphicon-menu-up')
-		$(this).find('span').addClass('glyphicon-menu-down')
-		$(this).find('span').css('color', '#000000')
+		$(this).children().eq(1).css("display", "block")
 	}
 })
