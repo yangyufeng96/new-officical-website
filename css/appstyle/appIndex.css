@@ -44,9 +44,6 @@
   .dynamic-detail{
     width: 100%;
   }
-  .card-box{
-    
-  }
   .card-box .row{
     width: 100%;
   }
@@ -72,6 +69,10 @@
   .card-box {
     display: none;
   }
+
+  .cars-btn {
+    display: none;
+  } 
 
   .card-box2 {
     display: block;
@@ -177,7 +178,8 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* margin-top: 335px; */
+    display: flex;
+    flex-direction: column;
   }
 
   .card-img {
@@ -197,7 +199,7 @@
     font-family: Microsoft YaHei;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 80px;
+    line-height: 40px;
     display: flex;
     justify-content: center;
   }
@@ -205,6 +207,7 @@
   .card-text2 {
     width: 609px;
     margin: 0 auto;
+    flex: 1;
   }
 
   .card-body2 {
@@ -422,6 +425,10 @@
 @media (max-width: 768px) {
   .service-box {
     display: none;
+  }
+
+  .img-box {
+    height: 119px;
   }
 
   .video-text {
@@ -682,16 +689,16 @@
     height: 104px;
   }
 
-  .cooper-content p {
-    font-size: 16px;
-  }
-
   .cooper-box p {
+    width: 50%;
     height: 104px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .cooper-box {
-    height: 1280px;
+    height: 1100px;
   }
 
 }

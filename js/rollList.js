@@ -1,5 +1,5 @@
-$('.btn-box').mouseenter(function () {
-  $(this).siblings().attr("style", "display:block;");
+$('.btnBox').mouseenter(function () {
+  $(this).children().attr("style", "display:block;");
 })
 $('.dropdown-menu').mouseenter(function () {
   $(this).attr("style", "display:block;");
@@ -7,8 +7,8 @@ $('.dropdown-menu').mouseenter(function () {
 $('.dropdown-menu').mouseleave(function () {
   $(this).attr("style", "display:none;");
 })
-$('.btn-box').mouseleave(function () {
-  $(this).siblings().attr("style", "display:none;");
+$('.btnBox').mouseleave(function () {
+  $(this).children().eq(1).attr("style", "display:none;");
 })
 
 // 划入导航

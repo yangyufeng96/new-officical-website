@@ -62,42 +62,6 @@
   text-decoration: none;
 }
 
-.btn-box a {
-  color: rgba(255, 255, 255, 0.85);
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.btn-box a:hover {
-  color: #1890FF;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.btn-box {
-  background: rgba(255, 255, 255, 0);
-  color: rgba(255, 255, 255, 0.85);
-  cursor: pointer;
-  font-size: 16px;
-  text-align: center;
-}
-
-.btn-box:hover {
-  color: #1890FF;
-}
-
-.active-index {
-  color: #1890FF;
-}
-
-.btn-box .active-index {
-  color: #1890FF;
-}
-
-.btn-group .dropdown-menu>li .active-index {
-  color: #1890FF;
-}
-
 .headr-logo {
   height: 35px;
   background: url(../../assets/img/LOGO.png) 0 0 no-repeat;
@@ -347,9 +311,5 @@ a {
 
   .home-headr {
     height: 49px;
-  }
-
-  .navActive {
-    color: #000 !important;
   }
 }
