@@ -41,7 +41,9 @@ ul {
 
 .aboutus-list {
   margin-top: 30px;
+  width: calc(100% - 80px);
   max-width: 1200px;
+  padding: 0 15px;
   margin-bottom: 30px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 16px 4px rgba(0, 0, 0, 0.05);
@@ -49,11 +51,9 @@ ul {
 }
 
 .list-headr {
-  width: 70%;
-  height: 268px;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: 55px auto 0;
 }
 
 .head-us {
@@ -116,7 +116,6 @@ ul {
 }
 
 .Message-box {
-  width: 80%;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -163,8 +162,6 @@ ul {
 }
 
 .Message-footer {
-  width: 80%;
-  height: 170px;
   margin: 0 auto;
 }
 
@@ -184,7 +181,7 @@ ul {
 
 .Message-footer div p:nth-of-type(2) {
   margin: 0;
-  width: 545px;
+  max-width: 545px;
   height: 47px;
   font-size: 16px;
   font-family: Microsoft YaHei;

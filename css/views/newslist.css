@@ -3,27 +3,6 @@
   padding: 0;
 }
 
-@media(min-width: 768px) {
-  .list-box {
-    width: 760px;
-  }
-
-  .details-img {
-    width: 100%;
-  }
-}
-
-@media(min-width: 992px) {
-  .list-box {
-    width: 100%;
-  }
-}
-
-@media(min-width: 1200px) {
-  .list-box {
-    width: 885px;
-  }
-}
 
 .newslist-box {
   width: 100%;

@@ -1,0 +1,29 @@
+@media(max-width: 992px) {
+  .video-box {
+    height: 234px;
+  }
+  .head-us p:nth-of-type(2) {
+    color:rgba(0,0,0,.25);
+  }
+  .crumbs-box {
+    display: none;
+  }
+}
+@media(max-width: 768px) {
+  .video-box {
+    height: 167px;
+  }
+  .list-headr {
+    margin-top: 20px;
+  }
+  .aboutus-list {
+    width: calc(100% - 20px);
+    padding: 0 10px;
+  }
+  .head-text span {
+    margin: 0;
+  }
+  .Message-text {
+    margin-top: 12px 0 0 0;
+  }
+}
