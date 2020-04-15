@@ -52,11 +52,14 @@
 }
 
 @media(min-width: 768px) and (max-width: 992px) {
+  .article-introduce-jr {
+    height: 450px;
+  }
   .app-scheme {
     display: block;
   }
   .article-introduce {
-    height: 234px;
+    height: 450px;
   }
 
   .int-text {
@@ -282,12 +285,15 @@
 }
 
 @media(max-width: 768px) {
+  .article-introduce-jr {
+    height: 300px;
+  }
   .introduced-content {
     width: 100%;
   }
 
   .article-introduce {
-    height: 234px;
+    height: 300px;
   }
 
   .int-text {

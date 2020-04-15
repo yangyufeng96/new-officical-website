@@ -48,7 +48,6 @@
     font-size: 36px;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
-    margin-top: 119px;
   }
 
   .top-text2 {
@@ -109,6 +108,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 24px;
   }
 
   .custom-two img:hover {
@@ -129,9 +129,11 @@
 }
 
 @media (max-width: 768px) {
+  .top-box {
+    height: 210px;
+  }
   .top-text {
     font-size: 30px;
-    margin-top: 90px;
   }
 
   .top-text2 {
@@ -163,6 +165,7 @@
 
   .custom-one {
     height: 390px;
+    padding: 0 12px;
   }
 
   .two-text p:nth-child(1) {

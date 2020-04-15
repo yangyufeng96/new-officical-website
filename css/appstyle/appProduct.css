@@ -47,7 +47,6 @@
   .product-text {
     margin: 0;
     font-size: 36px;
-    margin-top: 119px;
   }
 
   .product-text2 {
@@ -88,6 +87,7 @@
 
 
   .example-row {
+    width: 100%;
     height: 100%;
   }
 
@@ -109,7 +109,7 @@
     margin: 10px 0 20px 0;
   }
 
-  .example-left .example-text {
+  .example-text {
     font-size: 28px;
   }
 
@@ -122,7 +122,7 @@
     height: 582px;
   }
 
-  div.find-box {
+  .find-box {
     height: 860px;
   }
 
@@ -162,7 +162,6 @@
 
   /* 数据·定制 */
   .custom-box {
-    display: none;
     height: 816px;
   }
 
@@ -174,7 +173,8 @@
     display: none;
   }
 
-  .custom-app {
+  .custom-app.container{
+    width: 100%;
     display: block !important;
   }
 
@@ -214,9 +214,10 @@
   }
 
   /* 数据建模 */
-  div.modeling-box {
+  .modeling-box {
     height: 766px;
     background: none;
+    padding: 0 23px;
   }
 
   .modeling-center {
@@ -224,7 +225,7 @@
     flex-direction: column;
   }
 
-  div.visu-box2 {
+  .visu-box2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -257,6 +258,11 @@
     margin: 0 auto;
     height: 190px;
   }
+  
+  .encrypt-box {
+    height: 520px;
+    padding: 0 24px;
+  }
 
   .data-img {
     width: 702px;
@@ -280,6 +286,7 @@
     font-size: 36px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.85);
+    margin-top: 0;
   }
 
   .encrypt-text p:nth-of-type(2) {
@@ -349,11 +356,17 @@
     margin-top: 49px;
   }
 
+  .visu-box {
+    width: 100%;
+  }
+
   .product-text {
     font-size: 18px;
   }
 
   .example-text {
+    max-width: 329px;
+    margin: 0 auto;
     font-size: 14px;
   }
 
@@ -363,7 +376,7 @@
   }
 
   .product-example {
-    height: 610px;
+    height: 520px;
   }
 
   .example-left {
@@ -371,7 +384,7 @@
   }
 
   .example-right {
-    height: 291px;
+    height: 300px;
   }
 
   /* .example-img img{
@@ -416,7 +429,8 @@
 
   .find-text p:nth-child(4) {
     font-size: 14px;
-
+    max-width: 329px;
+    margin: 0 auto;
   }
 
   .find-text {
@@ -441,6 +455,10 @@
     height: 430px;
   }
 
+  .custom-box {
+    height: 418px;
+  }
+
   .custom-top span:nth-child(2) {
     font-size: 18px;
     height: 20px;
@@ -457,7 +475,7 @@
   .custom-title p {
     font-size: 14px;
     margin: 0;
-    line-height: 16px;
+    line-height: 20px;
   }
 
   .custom-top {
@@ -465,8 +483,10 @@
   }
 
   .app-lunbo {
-    width: 351px;
-    height: 360px;
+    width: calc(100% - 48px);
+    height: 402px;
+    margin:  0 auto;
+    padding: 0 10px;
   }
 
   .modeling-text p:nth-of-type(1) {
@@ -493,6 +513,7 @@
 
   .modeling-box {
     height: 383px;
+    padding: 0 12px;
   }
 
   .encrypt-text p:nth-of-type(1),
@@ -508,7 +529,8 @@
   }
 
   .encrypt-box {
-    height: 420px;
+    height: 280px;
+    padding: 0 12px;
   }
 
   .encrypt-text2 p:nth-of-type(4) {

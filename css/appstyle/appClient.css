@@ -18,3 +18,18 @@
     overflow: hidden;
   }
 }
+
+@media(max-width: 992px){
+  .client-content{
+    padding: 0 24px;
+  }
+}
+
+@media(max-width: 768px){
+  .client-top {
+    height: 175px;
+  }
+  .client-content{
+    padding: 0 12px;
+  }
+}
