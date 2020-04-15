@@ -159,6 +159,10 @@
   line-height:30px;
 }
 
+.video-app-book {
+  display: none;
+}
+
 .book-content p {
   font-size: 18px;
   font-family: MicrosoftYaHei;
