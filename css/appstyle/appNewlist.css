@@ -13,7 +13,137 @@
 
 
 @media(max-width: 992px) {
+  .todetail {
+    display: inline-block;
+  }
+  .newabout-box {
+    display: none;
+  }
+
+  .news-app {
+    padding: 60px 24px;
+    display: block;
+  }
+
+  .news-main {
+    width: 100%;
+  }
+
+  .news-item {
+    width: 100%;
+    height:331px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 5px 16px 4px rgba(0, 0, 0, 0.05);
+    border-radius:8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mn-head {
+    width: 100%;
+    font-size:28px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+  }
+  .mn-body {
+    margin: 10px 0;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .mn-text {
+    flex: 1;
+    font-size:28px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,.85);
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;  /*要显示的行数*/
+    -webkit-box-orient: vertical;
+  }
+  .mn-image {
+    width: 220px;
+    height: 150px;
+    margin-left: 50px;
+  }
+  .mn-footer {
+    width: 100%;
+    font-size:24px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,.65);
+  }
+
+  .newabou-head {
+    height: 234px;
+  }
+  .newshead-box {
+    width: 35%;
+    height: 23%;
+    font-size:32px;
+  }
+  #appPage {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
 
 @media(max-width: 768px) {
+  .news-app {
+    padding: 30px 12px;
+  }
+
+  .news-item {
+    height: 180px;
+    padding: 10px;
+  }
+
+  .mn-head {
+    font-size:14px;
+  }
+  .mn-body {
+    margin: 5px 0;
+  }
+  .mn-text {
+    font-size:14px;
+  }
+  .mn-image {
+    width: 110px;
+    height: 75px;
+    margin-left: 25px;
+  }
+  .mn-footer {
+    font-size:12px;
+  }
+
+  .newabou-head {
+    height: 170px;
+  }
+  .newshead-box {
+    font-size:16px;
+  }
+  #appPage .custom-pagination .page-to,#appPage .custom-pagination ul li {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  #appPage  .custom-pagination a.prev-page,#appPage  .custom-pagination a.next-page {
+    margin: 0;
+    width: 20px;
+  }
+  #appPage #page_input, #appPage .custom-pagination .page-to span {
+    margin: 0;
+  }
 } 

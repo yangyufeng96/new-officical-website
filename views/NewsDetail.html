@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../css/components/bootstrap-reset.css">
   <link rel="stylesheet" href="../assets/fonts/iconfont.css">
   <link rel="stylesheet" href="../css/views/newsdetail.css">
-  <link rel="stylesheet" href="../css/views/newslist.css">
+  <link rel="stylesheet" href="../css/appstyle/appDetail.css">
 </head>
 
 <body>
@@ -86,28 +86,13 @@
     </div>
     <!-- 新闻内容 -->
     <div class="detail-content">
+      <!-- pc 资讯详情 -->
       <div class="information-box">
         <div class="crumbs-box">关于我们 > 新闻资讯 > <span>详情</span></div>
         <!-- 新闻资讯的文章 -->
         <div class="detail-article">
           <div class="article-left">
-            <p>如何进行数据分析和可视化规划（一）</p>
-            <p>2019-10-28 09:19:02</p>
-            <div class="article-text">
-              <div class="section-text">
-                中国北京国际科技产业博览会创办于1998年，当时定名为“中国北京高新技术产业国际周”，从2002年第五届起正式更名为科博会，迄今已连续举办20届，逐步打造成集综合活动、展览展示、推介交易、论坛会议、网上展示推介“五位一体”的活动架构，成为国内外展示最新科技成果、传播前沿思想理念、发布产业政策信息、促进国际经济技术合作的专业化、国际化水平较高的标志性品牌活动。
-              </div>
-              <div class="section-text">
-                据不完全统计，前20届科博会先后有100多个国家和地区的900余个境外政府和科技经贸代表团组参加科博会，有35004家高新技术企业和科研院所推出最新技术成果，参与科博会的各界人士累计达到542万人次；先后共举办221个专题近千场次高层论坛和专项交流活动，境内外知名科学家、经济学家、著名企业首脑到会演讲5426人次；举办涉及国内外投资合作、技术贸易、城市发展重点项目等经贸洽谈活动230场，参加中外客商约12万余人次，签署合同、协议、意向5509个，总金额9961.9亿元人民币。科博会的成功举办，为促进产学研用融合贯通提供了务实链接，为新动能成长和传统动能改造提升提供了技术示范，为深化国际产能合作、拓展科技创新空间提供了重要平台。
-              </div>
-              <div class="section-img1 section-img"></div>
-              <div class="section-text">
-                据不完全统计，前20届科博会先后有100多个国家和地区的900余个境外政府和科技经贸代表团组参加科博会，有35004家高新技术企业和科研院所推出最新技术成果，参与科博会的各界人士累计达到542万人次；先后共举办221个专题近千场次高层论坛和专项交流活动，境内外知名科学家、经济学家、著名企业首脑到会演讲5426人次；举办涉及国内外投资合作、技术贸易、城市发展重点项目等经贸洽谈活动230场，参加中外客商约12万余人次，签署合同、协议、意向5509个，总金额9961.9亿元人民币。科博会的成功举办，为促进产学研用融合贯通提供了务实链接，为新动能成长和传统动能改造提升提供了技术示范，为深化国际产能合作、拓展科技创新空间提供了重要平台。
-              </div>
-              <div class="section-img2 section-img"></div>
-              <div class="section-text">北京华厚能源科技有限公司（HUAHOU ENERGY TECHNOLOGY
-                CO.,LTD.）是中国的一家高科技能源公司，成立于2016年4月，总部位于首都北京。致力于先进储能技术创新和能源互联网技术创新，在同领域内处于技术领先地位。</div>
-            </div>
+            <div class="article-content"></div>
             <div class="article-btn">
               <div class="btn-page">
                 <a href="###" class="left-page btn-same">上一篇</a>
@@ -117,9 +102,6 @@
                 <div class="left-pagination pagination-text">已是第一篇</div>
                 <div class="right-pagination pagination-text">如何进行数据分析和可视化规划（二）</div>
               </div>
-            </div>
-            <div class="page-box">
-
             </div>
           </div>
           <!-- 相关资讯 -->
@@ -154,6 +136,14 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- app 资讯详情 -->
+      <div class="app-information">
+        <div class="info-detail"></div>
+        <div class="turnbox">
+          <div class="true-btn">上一篇</div>
+          <div class="true-btn btnActive">下一篇</div>
         </div>
       </div>
     </div>
@@ -308,13 +298,6 @@
 <script src="../plugins/bootstrap-3.3.7/js/bootstrap.js"></script>
 <script src="../js/rollList.js"></script>
 <script>
-  // 4.调用插件
-  var box = new CustomPagination('#page', {
-    total: 99,//总页数
-    changePage: function (pageNum) {//切换页码成功回调
-      console.log('当前页码：' + pageNum)
-    }
-  });
 </script>
 
 </html>
