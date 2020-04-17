@@ -33,9 +33,20 @@
   .home-footer {
     display: block;
   }
+  .one-img img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 992px) {
+  .two-text {
+    width: 80%;
+  }
+  .one-img img {
+    width: 100%;
+    height: auto;
+  }
   .custom-box {
     background: rgba(210, 224, 246, 0.3);
   }

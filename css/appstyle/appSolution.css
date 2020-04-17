@@ -24,7 +24,7 @@
   }
 
   .industry-text {
-    width: 70%;
+    width: 100%;
   }
 
   .scheme-content {
@@ -178,7 +178,7 @@
     height: 178px;
   }
   .industry-text {
-    width: 80%;
+    width: 100%;
   }
 
   .industry-content {
@@ -425,7 +425,7 @@
   }
 
   .industry-text {
-    width: 80%;
+    width: 100%;
   }
 
   .industry-content {
@@ -434,6 +434,7 @@
 
   .industry-serial {
     width: 20%;
+    display: none;
   }
 
   .industry-text p:nth-of-type(2) {
